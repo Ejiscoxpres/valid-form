@@ -23,6 +23,12 @@ function formValidation{
         alert("phone number must be 7 and 11 characters long");
         phoneNumber.focus();
         return false;
+    }if(gender.gender.value === ""){
+        alert("please select your gender!");
+        return false;
+    }if(language.value === ""){
+        alert("please select your language");
+        return false;
     }
     
     
