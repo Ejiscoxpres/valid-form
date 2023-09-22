@@ -11,6 +11,15 @@ function formValidation{
         alert("Name length should be more 2 leeters and less 21 characters");
         userName. focus();
         return false;
-    } return true;
+    } if(email.value.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)){
+        alert("please enter a valid email!");
+        email.focus;
+        return false;
+    }if(password.value.match(/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{10,25}$/)){
+        alert("password must contain at least one lowercase letter, one uppercase letter, one numeric digit, and one special character, and must be between 10 and 25 characters long.");
+        password.focus();
+        return false;
+    }
+    
     
 }
