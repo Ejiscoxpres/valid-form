@@ -10,7 +10,7 @@
   align-items: center;
   flex-direction: column;
   height: 100vh;
-  background-color: #9b415c;
+  background-color: #29141a;
 }
 
 h1 {
@@ -27,7 +27,7 @@ h1 {
     color: #fff;
     font-size: 18px;
     font-family: sans-serif;
-    background-color: #6f2f42;
+    background-color: #ce406b;
     padding: 20px;
   }
   
