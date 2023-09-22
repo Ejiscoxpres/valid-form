@@ -6,3 +6,11 @@ const phoneNumber = document.getElementById("phoneNumber");
 const gender = document.registration;
 const language = document.getElementById("language");
 const zipcode = document.getElementById("zipcode");
+function formValidation{
+    if (userName.value.length < 2 || userName. value. length > 20){
+        alert("Name length should be more 2 leeters and less 21 characters");
+        userName. focus();
+        return false;
+    } return true;
+    
+}
