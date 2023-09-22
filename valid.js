@@ -19,6 +19,10 @@ function formValidation{
         alert("password must contain at least one lowercase letter, one uppercase letter, one numeric digit, and one special character, and must be between 10 and 25 characters long.");
         password.focus();
         return false;
+    }if(!phoneNumber.value.match(/^[1-9][0-9]{7,10}$/)){
+        alert("phone number must be 7 and 11 characters long");
+        phoneNumber.focus();
+        return false;
     }
     
     
